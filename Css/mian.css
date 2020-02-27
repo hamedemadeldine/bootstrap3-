@@ -1,0 +1,622 @@
+/* Start Global Rules */
+
+body{
+    font-family: 'Open Sans', sans-serif
+
+}
+/* End Global Rules */
+
+/* Start navbar */
+
+.navbar-brand{
+    font-weight: bolder;
+    font-size: 35px  
+}
+
+.navbar-brand span{
+    font-weight: 100;
+    color: #ff8b38;
+}
+/* End navbar */
+
+
+/* Start header */
+.header{
+    background-image: url(../Images/header.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+    padding-top: 100px;
+    position: relative;
+    color: #FFF
+}
+
+.header .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4)
+}
+
+.header .centering-vh{
+    margin-top: 25vh
+}
+
+.header h1{
+    font-weight: bolder;
+    font-size: 65px
+}
+
+.header h1 span{
+    font-weight: 100;
+    color: #ff8b38
+}
+
+.header h1 ~ .lead{
+    font-size: 30px
+}
+
+.header h1 ~ .lead::after{
+    content: '';
+    display: block;
+    width: 56px;
+    height: 2px;
+    background-color: #FFF;
+    margin: 26px 0
+}
+
+.header button{
+    background: none;
+    padding: 5px 15px;
+    border: 2px soild #FFF;
+    margin-top: 25px
+}
+
+.header form{
+    width: 320px;
+    background-color: #FFF;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-left: 150px
+} 
+
+.header form h2{
+    background-color: #F5F5F5;
+    color: #333;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px;
+    margin-top: 0;
+    margin-bottom: 30px
+}
+
+.header form h2 span{
+    color: #ff8b38
+}
+
+.header form .form-control{
+    border-radius: 0;
+    border: none;
+    box-shadow: none;
+    border-bottom: 1px solid #ccc;
+    width: 80%;
+    margin: 0 auto 40px
+}
+
+.header form input[type="submit"]{
+    background-color: #ff8b38;
+    color: #f2f2f2;
+    padding: 15px;
+    border-radius: 0
+}
+
+/* End header */
+
+/* Start social section */
+.social-section{
+    padding: 10px;
+    background-color: #FFF;
+    -webkit-box-shadow: -2px -5px 13px #000;
+    -moz-box-shadow: -2px -5px 13px #000;
+    -o-box-shadow: -2px -5px 13px #000;
+    box-shadow: -2px -5px 13px #000
+}
+
+.social-section h3{
+    font-weight: bolder;
+    margin-bottom: 5px
+}
+
+.social-section p{
+    color: #a1a1a1;
+    line-height: 1.4
+}
+
+.social-section i{
+    color: #ccc;
+    margin: 20px 15px;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    cursor: pointer
+}
+
+.social-section .fa-facebook:hover{
+    color: #0078d7
+}
+
+.social-section .fa-twitter:hover{
+    color: #1da1f2
+}
+
+.social-section .fa-google-plus:hover{
+    color: #dd4b39
+}
+
+.social-section .fa-pinterest:hover{
+    color: #bd081c
+}
+
+.social-section .fa-instagram:hover{
+    color: #c13584
+}
+
+.social-section .fa-stumbleupon:hover{
+    color: #eb4924
+}
+
+.social-section .fa-rss:hover{
+    color: #f26522
+}
+/* End social section*/
+
+/* Start section tabs */
+.tabs-section{
+    padding: 130px 0;
+    background-color: #f5f5f5
+}
+
+.tabs-section .tab-switch li{
+    background-color: #333;
+    color: #FFF;
+    border-bottom: 1px solid #FFF;
+    height: 130px;
+    line-height: 130px;
+    font-size: 20px;
+    text-transform: uppercase;
+    cursor: pointer
+}
+
+.tabs-section .tab-switch li.selected,
+.tabs-section .tab-switch li:hover{
+    background-color: #ff8b38 
+}
+
+.tabs-section .content h3{
+    margin-top: 0;
+    font-weight: bolder;
+    font-size: 25px;
+    margin-bottom: 50px;
+    letter-spacing: -1px
+}
+
+.tabs-section .content lead{
+    color: #7e7e7e;
+    line-height: 1.6;
+    font-size: 16px
+}
+
+.tabs-section .content p{
+    color: #7e7e7e;
+    line-height: 1.6;
+    font-size: 16px;
+    margin: 30px 0
+}
+
+.tabs-section .content button{
+    background: #ff8b38;
+    color: #262626;
+    border-radius: 0
+}
+
+.tabs-section .content button:hover{
+    color: #FFF
+}
+/* End section tabs */
+
+/* Start section sublist*/
+
+.sublist{
+    padding: 80px 0;
+    background-color: #FFF
+}
+
+.sublist .sub-image{
+    margin-top: 50px
+}
+
+.sublist h3{
+    font-weight: bolder
+}
+
+.sublist .sub-desc{
+    color: #7e7e7e;
+    line-height: 1.6;
+    margin-bottom: 30px 
+}
+
+.sublist .list-icon {
+    overflow: hidden;
+    margin-top: 30px
+}
+
+.sublist .list-icon i{
+    height: 40px;
+    width: 40px;
+    line-height: 36px;
+    text-align: center;
+    color: #ff8b38;
+    border: 2px solid #ff8b38;
+    border-radius: 50%;
+    margin-right: 20px;
+    margin-top: 20px
+}
+
+.sublist .list-icon .text-info{
+    width: calc(100%-70px)
+}
+
+.sublist .list-icon .text-info h4{
+    font-weight: bold
+}
+
+.sublist .list-icon .text-info p{
+    line-height: 1.6;
+    color: #7e7e7e
+}
+/* End section sublist*/
+
+/* start standard */
+
+.standard-picture{
+    padding: 80px 0;
+    background-color: #f5f5f5
+}
+
+
+.standard-picture h3{
+    font-weight: bolder;
+     margin-top: 50px
+}
+
+.standard-picture .standard-desc{
+    color: #7e7e7e;
+    line-height: 1.6;
+    margin-bottom: 30px 
+}
+
+.standard-picture p{
+    color: #7e7e7e;
+    line-height: 1.6;
+    margin-bottom: 30px 
+}
+/* End standard */
+
+/* Start this is Awesome*/
+
+.Awesome{
+    padding: 80px 0
+}
+
+.Awesome h2{
+    font-size: 50px;
+    font-weight: bold;
+    color: dimgrey;
+    font-family: -webkit-body;
+    font-family: -moz-body;
+    font-family: -o-body;
+    font-family: body
+}
+
+.Awesome .awesome-dsec{
+    margin-bottom: 70px;
+    color: #a9aaac;
+    font-size: 18px
+}
+
+.Awesome i{
+    color: #ff8b38;
+    width: 70px;
+    height: 70px;
+    line-height: 68px;
+    border: 2px solid #ff8b38;
+    border-radius: 50%;
+    cursor: pointer
+}
+
+.Awesome .fa-keyboard-o {
+    font-size: 37px
+}
+
+.Awesome .feat-head{
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 22px;
+    color: #666666;
+    font-family: -webkit-body;
+    font-family: -moz-body;
+    font-family: -o-body;
+    font-family: body
+}
+.Awesome .feat-info{
+    color: #a9aaac;
+    margin-bottom: 40PX;
+    margin-top: 40px
+}
+/* End this is Awesome*/
+
+/* Start price options*/
+
+.pric-options {
+    padding: 80px 0;
+    background-color: #f5f5f5
+}
+
+
+.pric-options  h3{
+    font-weight: bolder;
+     margin-top: 55px
+}
+
+.pric-options .price-dsec{
+    color: #a9aaac;
+    line-height: 1.6;
+    margin-bottom: 30px 
+}
+
+.pric-options .price-box{
+    background-color: #FFF
+}
+
+.pric-options .price-box .plan-head{
+    background-color: #333;
+    color: #FFF;
+    padding: 15px 0;
+    margin: 0;
+    font-weight: bold;
+    border-bottom: 1px solid #FFF
+}
+
+.pric-options .price-box .option-price{
+    background-color: #333;
+    padding: 10px 0 20px
+}
+
+.pric-options .option-price .price{
+    font-size: 70px;
+    color: #FFF;
+    display: block;
+    font-weight: bold
+}
+
+.pric-options .option-price{
+    border-bottom: 5px solid #ff8b38
+}
+.pric-options .option-price .price .usd{
+    font-size: 30px
+}
+
+.pric-options .option-price .period{
+    color: #adadad;
+    font-weight: bold;
+    font-style: italic
+}
+
+.pric-options .configuration li{
+    padding: 10px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #F5F5F5;
+    color: #8c8c8c
+}
+
+.pric-options .most-pop{
+    background-color: #ff8b38;
+    color: #FFF;
+    padding: 5px 10px 10px;
+    margin: 0;
+    font-weight: bold
+}
+
+.pric-options .basic,
+.pric-options .enterprise{
+    margin-top: 35px
+}
+/* End price options*/
+
+
+/* Start Testimonials */
+
+.Testimonials{
+    padding: 80px 0
+}
+
+.Testimonials h2{
+    font-size: 50px;
+    font-weight: bold;
+    color: dimgrey;
+    font-family: -webkit-body;
+    font-family: -moz-body;
+    font-family: -o-body;
+    font-family: body
+}
+
+.Testimonials .Tes-dsec{
+    margin-bottom: 70px;
+    color: #a9aaac;
+    font-size: 18px
+}
+
+.Testimonials .client-say{
+    background-color: #f5f5f5;
+    color: #8e8f93;
+    padding: 20px;
+    position: relative
+}
+
+.Testimonials .client-say::after{
+    content: '';
+    width: 0;
+    height: 0;
+    display: block;
+    border-style: solid;
+    border-width: 15px;
+    border-color: #f5f5f5 transparent transparent;
+    position: absolute;
+    bottom: -28px;
+    left: 25px
+}
+
+.Testimonials .media-heading{
+    margin-top: 20px;
+    padding-right: 182px;
+    font-weight: bold
+}
+
+.Testimonials .media-body p{
+    color: #a9aaac;
+    padding-right: 185px;
+    margin-top: 5PX
+}
+/* End Testimonials*/
+
+/* Start stylish */
+.stylish{
+    background-image: url(../Images/stylish.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-top: 100px;
+    position: relative;
+    color: #FFF;
+    min-height: 320px
+}
+
+.stylish .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    padding: 60px 0
+}
+
+.stylish h2{
+    font-weight: bold;
+    color: #d9d9d9
+}
+.stylish .stylish-desc{
+    color: #a9aaac
+}
+
+.stylish .stylish-btn{
+    margin: 30px auto;
+    display: block;
+    padding: 8px 20px;
+    border: 2px solid #FFF;
+    background: transparent
+}
+
+.stylish .head-border-center::after{
+    content:' ';
+    display: block;
+    background-color: #FFF;
+    height: 3px;
+    width: 65px;
+    margin: 30px auto
+}
+/* End stylish */
+
+/* Start contact us*/
+
+.contact-us{
+    padding: 80px 0
+}
+
+.contact-us .contact-desc{
+    color: #a9aaac;
+    margin-bottom: 40px
+}
+
+
+.contact-us form input[type="text"],
+.contact-us form input[type="Email"]{
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    border-bottom: 1px solid #e0e0e0
+}
+
+.contact-us form textarea{
+    height: 158px;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    border-bottom: 1px solid #e0e0e0
+} 
+.contact-us .contact-btn{
+   margin: 30px auto;
+  display: block;
+  padding: 8px 20px;
+  border: 2px solid #FFF;
+  background-color: #ff8b38;
+  color: #FFF;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold
+}
+/* End contact us*/
+
+/* Start footer */
+.footer{
+    background-color: #000;
+    color: #EEE;
+    padding: 20px;
+    font-size: 18px
+}
+/* End footer */
+/* Start Farmework */
+.uppercase{
+    text-transform: uppercase
+}
+
+.head-border::after{
+    content:' ';
+    display: block;
+    background-color: #ff8b38;
+    height: 3px;
+    width: 65px;
+    margin: 30px 0
+}
+
+.head-border-center::after{
+    content:' ';
+    display: block;
+    background-color: #ff8b38;
+    height: 3px;
+    width: 65px;
+    margin: 30px auto
+}
+/* End Farmework */
